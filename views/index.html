@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My URL Shortener Microservice</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="your-custom-favicon.png" <!-- Replace with your custom favicon URL -->
+    />
+    <link href="/public/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <h1>My URL Shortener Microservice</h1>
+    <main>
+      <section>
+        <form action="api/shorturl" method="POST">
+          <fieldset>
+            <legend>URL Shortener</legend>
+            <label for="url_input">URL:</label>
+            <input id="url_input" type="text" name="url" placeholder="Enter your URL here" />
+            <input type="submit" value="Shorten URL" />
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Created by <a href="https://www.example.com/">Your Name</a></p>
+    </footer>
+  </body>
+</html>
